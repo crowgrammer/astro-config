@@ -9,4 +9,11 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  -- You can also add new plugins here as well:
+  -- Add plugins, the lazy syntax
+  "folke/tokyonight.nvim",
+  {
+    "folke/tokyonight.nvim",
+    event = "BufRead",
+  },
 }
